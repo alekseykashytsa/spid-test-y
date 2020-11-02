@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="f0cad056-3727-449a-962d-7cdb4886b678" entityID="https://spid.intesys.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#f0cad056-3727-449a-962d-7cdb4886b678">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ORv152aMo3/I8Vd98fSVv3ffwaXNMaPTSseKguzyqmE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+jAnq1h5MoYEqHtPikvVnv73U8xwIhaSgCT8asfV5BSObwbJvsC76v5e3awLU9p0zomKaL3zai+Fj
+9vRwJCxqjRGdJmoMnRWZKQidj15eDJFG/iSEK4TuuH+qvWFuGMmqbijkYLN4fM1PUP6W2njAMVE2
+d7U7SvSGIx0Q9Z9OpIEiD3GwjBOV9RN/hJSCylH2w7e2bb1XIFTgckT+Bqqd6Et39ZgfTUvKjFlB
+ZTNn79Nvb19rw/JbZexcoBDsyJBbKCjnaFtdxSEODytA/K3MpzOu8S7Wd28NK5LgIQbz7YU40THw
+n6EUInalZosVFQOz+HG4/J4TGYlKASak3zt6oQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xJ4JfU6j0j8UhVq4NwT6sFt8O9XJZwJe0FMaXCfj+P+bbEUlNggdytqrqZncpQrAUH4e+/kaYKyI
+dft2peOlexmF9Iqt5xNDmLZnwcRdyBeJB67HGkAAviNd4Sz/dbon5FSE25E+6OUXlTuPEmCfupuW
+lp88GTo3FcvH4dhG/pw5OtAlWz5gIAWyYWHl/cqTyJZWiR2m6iCtWBEqIL98HoA/StvvKwpaBc61
+y3xUgsHTnkQgJVg+ZTk1QmglPLUgwtAemXh3/clykV/FMuh1BltB/q9X/3J1cCcygw+1jPxIQP3o
+I3S2lgGwvS3t/G4b/TgkfwhZMaPa2SzQ2q9vdw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDnTCCAoWgAwIBAgIUIn27Syn+EmLCeECY7IDpgIGbUgAwDQYJKoZIhvcNAQELBQAwXjELMAkG
+A1UEBhMCSVQxCzAJBgNVBAgMAlZSMQ8wDQYDVQQHDAZWZXJvbmExEDAOBgNVBAoMB0ludGVzeXMx
+DTALBgNVBAsMBFRlY2gxEDAOBgNVBAMMB0FsZWtzZXkwHhcNMjAxMDA5MTAyMTA0WhcNMzAxMDA5
+MTAyMTA0WjBeMQswCQYDVQQGEwJJVDELMAkGA1UECAwCVlIxDzANBgNVBAcMBlZlcm9uYTEQMA4G
+A1UECgwHSW50ZXN5czENMAsGA1UECwwEVGVjaDEQMA4GA1UEAwwHQWxla3NleTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAMSeCX1Oo9I/FIVauDcE+rBbfDvVyWcCXtBTGlwn4/j/m2xF
+JTYIHcraq6mZ3KUKwFB+Hvv5GmCsiHX7dqXjpXsZhfSKrecTQ5i2Z8HEXcgXiQeuxxpAAL4jXeEs
+/3W6J+RUhNuRPujlF5U7jxJgn7qblpafPBk6NxXLx+HYRv6cOTrQJVs+YCAFsmFh5f3Kk8iWVokd
+puogrVgRKiC/fB6AP0rb7ysKWgXOtct8VILB055EICVYPmU5NUJoJTy1IMLQHpl4d/3JcpFfxTLo
+dQZbQf6vV/9ydXAnMoMPtYz8SED96CN0tpYBsL0t7fxuG/04JH8IWTGj2tks0Nqvb3cCAwEAAaNT
+MFEwHQYDVR0OBBYEFAlumvv31D/Udj0qd7RvP8Cahts2MB8GA1UdIwQYMBaAFAlumvv31D/Udj0q
+d7RvP8Cahts2MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKt6SUZgSCE42Ne5
+vqoo3vXiVoVubjExswbw8aKSTlTZ8opeZuUDhE1YN/R0dlzTva/Ah24OPQ5zR8iNP+uumFfmSGlO
+jACR+UUtsNrnKsVygDsdEeWhST54LDem1q6KrjaRsRf3XD5X8PqFijbmBcJk1JPCxHXY+0DNXT3G
+UAJkJsyarzmXnh+ylDJKMK9Ar/vy6d4owSbD6ZmAsB6tBPRMJbKuvRrPZuXTmunqiWWbrVXThhzr
+NiKw1A960Xm2+vPpV/FX7pn0TZzpZIhBV7SDr0fB03684WbP1q3tKT7x1wnvSw5yuS5pZqtH5yxV
+Z3RcZlQ6nxFwCre1m6/EcA4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDnTCCAoWgAwIBAgIUIn27Syn+EmLCeECY7IDpgIGbUgAwDQYJKoZIhvcNAQELBQAwXjELMAkG
+A1UEBhMCSVQxCzAJBgNVBAgMAlZSMQ8wDQYDVQQHDAZWZXJvbmExEDAOBgNVBAoMB0ludGVzeXMx
+DTALBgNVBAsMBFRlY2gxEDAOBgNVBAMMB0FsZWtzZXkwHhcNMjAxMDA5MTAyMTA0WhcNMzAxMDA5
+MTAyMTA0WjBeMQswCQYDVQQGEwJJVDELMAkGA1UECAwCVlIxDzANBgNVBAcMBlZlcm9uYTEQMA4G
+A1UECgwHSW50ZXN5czENMAsGA1UECwwEVGVjaDEQMA4GA1UEAwwHQWxla3NleTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAMSeCX1Oo9I/FIVauDcE+rBbfDvVyWcCXtBTGlwn4/j/m2xF
+JTYIHcraq6mZ3KUKwFB+Hvv5GmCsiHX7dqXjpXsZhfSKrecTQ5i2Z8HEXcgXiQeuxxpAAL4jXeEs
+/3W6J+RUhNuRPujlF5U7jxJgn7qblpafPBk6NxXLx+HYRv6cOTrQJVs+YCAFsmFh5f3Kk8iWVokd
+puogrVgRKiC/fB6AP0rb7ysKWgXOtct8VILB055EICVYPmU5NUJoJTy1IMLQHpl4d/3JcpFfxTLo
+dQZbQf6vV/9ydXAnMoMPtYz8SED96CN0tpYBsL0t7fxuG/04JH8IWTGj2tks0Nqvb3cCAwEAAaNT
+MFEwHQYDVR0OBBYEFAlumvv31D/Udj0qd7RvP8Cahts2MB8GA1UdIwQYMBaAFAlumvv31D/Udj0q
+d7RvP8Cahts2MA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKt6SUZgSCE42Ne5
+vqoo3vXiVoVubjExswbw8aKSTlTZ8opeZuUDhE1YN/R0dlzTva/Ah24OPQ5zR8iNP+uumFfmSGlO
+jACR+UUtsNrnKsVygDsdEeWhST54LDem1q6KrjaRsRf3XD5X8PqFijbmBcJk1JPCxHXY+0DNXT3G
+UAJkJsyarzmXnh+ylDJKMK9Ar/vy6d4owSbD6ZmAsB6tBPRMJbKuvRrPZuXTmunqiWWbrVXThhzr
+NiKw1A960Xm2+vPpV/FX7pn0TZzpZIhBV7SDr0fB03684WbP1q3tKT7x1wnvSw5yuS5pZqtH5yxV
+Z3RcZlQ6nxFwCre1m6/EcA4=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.intesys.it/c/portal/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://serviziweb-loc.gruppoveritas.it:8080" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://serviziweb-loc.gruppoveritas.it" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost:8080" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://localhost" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serviziweb-test.gruppoveritas.it" index="4"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://serviziweb-test.gruppoveritas.it:8080" index="5"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://172.16.1.38:8080" index="6"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://172.16.1.37:8080" index="7"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Intesys-spid 0</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Intesys-spid 1</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">Intesys-spid 2</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">Intesys-spid 3</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="4">
+			<md:ServiceName xml:lang="it">Intesys-spid 4</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="5">
+			<md:ServiceName xml:lang="it">Intesys-spid 5</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="6">
+			<md:ServiceName xml:lang="it">Intesys-spid 6</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="7">
+			<md:ServiceName xml:lang="it">Intesys-spid 7</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Intesys</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Intesys</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://spid.intesys.it</md:OrganizationURL>
+	</md:Organization>
+</md:EntityDescriptor>
